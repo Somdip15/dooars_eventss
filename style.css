@@ -1,165 +1,174 @@
 :root {
-    --maroon: #800000;
-    --matte-green: #556B2F;
-    --background: #f4f0ec;
-  }
+  --maroon: #800000;
+  --matte-green: #556B2F;
+  --background: #f4f0ec;
+}
 
-  
+
 .dancing-script-p {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    /* font-style: normal; */
-  }
-  
-  body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    color: #000000;
-    background: url('images/Indian-wedding-corus-hotel-2.jpg') no-repeat center center fixed;
-    background-size: cover;
-  }
-  
-  header {
-    background-color: rgba(128, 0, 0, 0.85);
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  /* font-style: normal; */
+}
 
-  header img {
-    
-    border-radius: 50px;
-    border-width: 10px;
-    border-color: #000000;
-    max-width: 30px;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-  }
-  
-  nav {
-    background-color: rgba(85, 107, 47, 0.9);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    flex-wrap: wrap;
-  }
-  
-  .nav-links {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .contact-number {
-    color: #fff;
-    font-weight: bold;
-  }
-  
-  section {
-    padding: 40px 20px;
-    /* max-width: 1000px; */
-    /* margin: auto; */
-    background-color: rgba(216, 214, 214, 0.723);
-    border-radius: 10px;
-    word-spacing: 5px;
-    font-weight: 500;
-    min-height: 100dvh;
-  }
-  
-  section h1 {
-    color: var(--maroon);
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-  }
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  background: url('images/Indian-wedding-corus-hotel-2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
 
-  section h3 {
-    color: var(--maroon);
-    font-family: 'Playfair Display', serif;
-  }
+header {
+  background-color: rgba(128, 0, 0, 0.85);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-  .endp{
-    text-align: center;
-    justify-content: center;
-    color: #000000;
-  }
+header img {
 
-  .imp{
-    font-weight: 1000;
-  }
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: #000000;
+  max-width: 30px;
+  height: auto;
+  margin-bottom: 10px;
+}
 
-  footer{
-    display: flex;
-    bottom: 0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #00000080;
-    color: #f4f0ec;
-    width: 100%;
-    height: 100px;
-    margin: auto;
-    font-size: 20px;
-  }
+header h1 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
 
-  .menu {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  }
+nav {
+  background-color: rgba(85, 107, 47, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
 
-  .services{
-    text-align: center;
-  }
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
-  .services ul{
-    display: table;
-    margin: 0 auto;
-    color: #800000;
-  }
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  .services ul li{
-    font-weight: 800;
-    font-size: large;
-    padding: 20px 0px;
-  }
+.contact-number {
+  color: #fff;
+  font-weight: bold;
+}
 
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-  }
+section {
+  padding: 40px 20px;
+  /* max-width: 1000px; */
+  /* margin: auto; */
+  background-color: rgba(216, 214, 214, 0.723);
+  border-radius: 10px;
+  word-spacing: 5px;
+  font-weight: 500;
+  min-height: 100dvh;
+}
 
-  .gallery-grid img{
-    max-height: 200px;
-    border-radius: 10px;
-  }
-  
-  .gallery-grid img {
-    width: 100%;
-    height: auto;
-  }
+section h1 {
+  color: var(--maroon);
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
 
-  .contact{
-    text-align: center;
-  }
-  
-  .contact p{
-    padding: 20px 0px;
-  }
-  
+section h3 {
+  color: var(--maroon);
+  font-family: 'Playfair Display', serif;
+}
+
+.endp {
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.imp {
+  font-weight: 1000;
+}
+
+footer {
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #00000080;
+  color: #f4f0ec;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  font-size: 20px;
+}
+
+.menu {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.services {
+  text-align: center;
+}
+
+.services ul {
+  display: table;
+  margin: 0 auto;
+  color: #800000;
+}
+
+.services ul li {
+  font-weight: 800;
+  font-size: large;
+  padding: 20px 0px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-grid video {
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+.gallery-grid video {
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  padding: 20px 0px;
+}
