@@ -173,6 +173,10 @@ footer {
   padding: 20px 0px;
 }
 
+.contact img{
+  border-radius: 15px;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
