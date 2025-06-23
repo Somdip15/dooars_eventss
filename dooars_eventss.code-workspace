@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../samp/gallery images/entry gates"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dooars_eventss"
+	}
+}
